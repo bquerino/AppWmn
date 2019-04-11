@@ -1,0 +1,17 @@
+{
+  "name": "push-server",
+  "version": "1.0.0",
+  "description": "A push notification server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bruno Querino",
+  "license": "ISC",
+  "dependencies": {
+    "apns": "^0.1.0",
+    "mongoose": "^5.5.0",
+    "node-gcm": "^1.0.2",
+    "restify": "^8.2.0"
+  }
+}
