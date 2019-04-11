@@ -4,6 +4,7 @@ import { Text, View } from 'react-native';
 
 const uniqueId = DeviceInfo.getUniqueID();
 
+/*
 fetch('http://localhost:8181/register/', {
   method: 'POST',
   headers: {
@@ -14,7 +15,7 @@ fetch('http://localhost:8181/register/', {
     deviceId: uniqueId,
     platform: "Android.OS",
   }),
-});
+});*/
 
 export default class HelloWorldApp extends Component {
   render() {
